@@ -1,4 +1,4 @@
-<h1>CS 470: Software Engineering</h1>
+<h1>CS 470: Advanced Software Engineering</h1>
 
 <h2>Fall 2013</h2>
 
