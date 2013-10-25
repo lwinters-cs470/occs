@@ -13,7 +13,7 @@ def index():
 def site(num):
     # Works for /site01, /site02, /site03, etc.
     return render_template('site{0}.html'.format(num))
-
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
