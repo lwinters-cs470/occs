@@ -1,7 +1,9 @@
 <h1>CS 470: Advanced Software Engineering</h1>
 
-<h2>Fall 2013</h2>
+<h2>Assignment #1</h2>
 
-A repository for the site created while doing coursework.
+A simple web page containing informatoin on Ollivet College's<br>
+Mathematics and Computer Science Department. Lists Faculty, Degree Programs,<br>
+and courses.
 
 Live website at https://lwinters-occs.herokuapp.com
