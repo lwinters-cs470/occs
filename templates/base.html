@@ -1,25 +1,22 @@
 <html>
 <head>
-  <title>{% block title %}Midterm Site{% endblock %}</title>
+  <title>{% block title %}Olivet College Computer Science Program{% endblock %}</title>
 </head>
-<body style="background-color:#E6E6FA"><h1 id="site">Site {% block sitenumber%}00{% endblock %}</h1>
+<body style="background-color:#E6E6FA"><h1 id="site_title">{% block site_title%}{% endblock %}</h1>
 
 <hr>
 
-<h2 id="status">Status</h2>
+	<a href="/static/index.html">Home</a>
+ 	<a href='/site01'>Facutly</a> 
+ 	<a href='/site02'>Degree Programs</a>
+   	<a href='/site03'>Courses</a>
+   	<a href='/site04'>Contact Us</a>
 
-{% block status %}
+<hr>
+
+{% block body %}
 {% endblock %}
 
-<h2 id="plan">Plan</h2>
 
-{% block plan %}
-{% endblock %}
-
-<h2 id="expected-completion-date">Expected Completion Date</h2>
-
-{% block date %}
-{% endblock %}
-
-<p>Return to <a href="/">homepage</a></p>
-</body></html>
+</body>
+</html>
